@@ -1,0 +1,246 @@
+html {
+  font-size: 10px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  background: #fff url(../img/main-bg.jpg) center center no-repeat fixed;
+  color: #fff;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
+.main p {
+  font-size: 3rem;
+  font-weight: 888;
+}
+.main-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.main h1{
+  margin-bottom: 1.5rem;
+  font-size: 4.8rem;
+}
+.main-header {
+  position: relative;
+}
+.main-line {
+width: 200px;
+height: 1px;
+background-color: #fff;
+margin: 0 auto;
+}
+.main-down {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2rem;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  line-height: 50px;
+  left:50%;
+  margin-left: -25px;
+  color: #fff;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.main-down:hover{
+  border: 1px solid #fff;
+  color: #fff;
+}
+.icon-telegram {
+  color:#fff;
+}
+/*portfolio*/
+
+.portfolio {
+  padding: 8rem 0px;
+  text-align: center;
+}
+.pf-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin-bottom: 8rem;
+} 
+.portfolio img {
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
+  background-color: #b6a5a5;
+}
+
+.portfolio a {
+  display: block;
+  margin: 1.8rem auto 5rem;
+  width: 18rem;
+  color: #333; 
+  border-bottom: 1px solid transparent;
+}
+.portfolio a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #333;
+}
+
+/*footer here*/
+
+footer {
+  background-color: #646464;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+footer strong {
+  font-size: 2.2rem;
+  font-weight: 888;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+.social-links a{
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  display:inline-block;
+  color: #fff;
+  border:solid 1px #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition:  0.5s;
+  -webkit-transition:  0.5s;
+  -moz-transition:  0.5s;
+  -ms-transition:  0.5s;
+  -o-transition:  0.5s;
+}
+
+.social-links a:hover {
+  background-color: #fff;
+  color: #646464;
+  text-decoration: none;
+}
+
+.offer-button {
+  display: block;
+  width: 80%;
+  max-width: 180px;
+  margin: 1rem auto;
+  color: #fff;
+  border: 1px solid #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.offer-button:hover{
+  background-color: #fff;
+  color: #646464;
+  text-decoration: none;
+}
+
+/*modal*/
+
+.modal img {
+  width: 100%;
+  background-color: #b6a5a5;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.modal-title {
+  font-weight: 888;
+  font-size: 2rem;
+}
+
+.modal-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 1rem 2rem;
+  color: #333;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.modal-btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #333;
+}
+
+.modal-btn-check {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 1rem 2rem;
+  color: #333;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+  footer strong {
+    margin: 1.8rem 0 1.8rem;
+    display: inline-block;
+  }
+
+}
