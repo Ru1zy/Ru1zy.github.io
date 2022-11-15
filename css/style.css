@@ -17,7 +17,7 @@ a:focus {
 .main {
   position: relative;
   text-align: center;
-  background: #fff url(../img/main-bg.jpg) center center no-repeat fixed;
+  /*background: #fff url(../img/main-bg.jpg) center center no-repeat fixed;*/
   color: #fff;
   background-size: cover;
   height: 100vh;
@@ -76,9 +76,10 @@ margin: 0 auto;
 /*portfolio*/
 
 .portfolio {
-  padding: 8rem 0px;
+  padding: 5rem 0px;
   text-align: center;
 }
+
 .pf-header {
   text-align: center;
   text-transform: uppercase;
@@ -95,7 +96,7 @@ margin: 0 auto;
 .portfolio a {
   display: block;
   margin: 1.8rem auto 5rem;
-  width: 18rem;
+  width: 15rem;
   color: #333; 
   border-bottom: 1px solid transparent;
 }
@@ -124,7 +125,7 @@ footer strong {
 .social-links a{
   width: 5rem;
   height: 5rem;
-  line-height: 5rem;
+  line-height: 4.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 2rem;

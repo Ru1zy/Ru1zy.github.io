@@ -9,12 +9,12 @@
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
     <meta property="og:title" content="2ez4ru1z - разработка всяческого">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="img/favicon-32x32.png">
     <meta property="og:description" content="Закажите разработку сайта без посредников">
     <meta property="og:site_name" content="Портфолио">
     <meta property="article:author" content="2ez4ru1z">
     <!--Заголовок-->
-    <title>2ez4ru1z - Портфолио</title>
+    <title>2ez4ru1z</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/fontello-embedded.css">
@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="main">
+    <div class="main parallax-window" data-parallax="scroll" data-speed="0.25" data-image-src="img/main-bg.jpg">
         <div class="main-overlay"></div>
       <div class="wrapper">
         <div class="main-header">
@@ -41,11 +41,11 @@
                 <p>Вёрстка <br> Разработка сайтов <br> и всяческого</p>
          </div>
       </div>
-      <a class="main-down" href="#" ><i class="icon-down"></i></a>
+      <div id="main-down"><a class="main-down" href="#port"><i class="icon-down"></i></a></div>
     </div> 
     <div class="portfolio">
       <div class="container">
-        <h2 class="pf-header">Портфолио</h2>
+        <h2 class="pf-header" id="port">Портфолио</h2>
         <div class="row">
           <div class="col-md-4">
             <div class="pf-block">
@@ -65,6 +65,18 @@
               <a data-toggle="modal" data-work="work-3" href="#work" target="_blank">Смотреть работу</a>
               </div>
           </div>
+          <div class="col-md-4">
+            <div class="pf-block">
+              <img src = "img/portfolio/3.png" alt = "Работа №4">
+              <a data-toggle="modal" data-work="work-4" href="#work" target="_blank">Смотреть работу</a>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="pf-block">
+              <img src = "img/portfolio/3.png" alt = "Работа №5">
+              <a data-toggle="modal" data-work="work-5" href="#work" target="_blank">Смотреть работу</a>
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -78,9 +90,9 @@
           <div class="col-lg-6">
             <strong>Follow me</strong>
             <div class="social-links">
-              <a href="#" class="icon-vk"></a>
-              <a href="#" class="icon-telegram"></a>
-              <a href="#" class="icon-instagram"></a>
+              <a href="https://vk.com/2ez4ru1z" class="icon-vk" target="_blank"></a>
+              <a href="https://t.me/ru1zy" class="icon-telegram" target="_blank"></a>
+              <a href="https://www.instagram.com/2ez4ru1z" class="icon-instagram" target="_blank"></a>
             </div>
           </div>
           <div class="col-lg-3">
@@ -106,9 +118,10 @@
   </div>
 </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery for BS'JS plugins -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/parallax.min.js"></script>
   </body>
 </html>
