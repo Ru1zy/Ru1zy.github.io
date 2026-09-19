@@ -97,6 +97,54 @@
         </div>
       `
     },
+    'fantasy-game': {
+      badge: 'Game Dev • WebRTC P2P • PWA',
+      title: 'Fantasy Tactics 2D — Браузерная пошаговая стратегия',
+      subtitle: 'JavaScript ES6 • Webpack 5 • PeerJS (WebRTC) • Workbox PWA • Utility AI',
+      url: 'https://github.com/Ru1zy/game-fantasy-pwa',
+      urlLabel: 'Открыть репозиторий на GitHub',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте и реализации</h4>
+            <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+              Кроссплатформенная 2D пошаговая стратегия в фэнтези-сеттинге с механикой Progressive Web App. Проект включает бесконечные волны выживания, визуализацию боевых радиусов, умный ИИ, а также P2P-мультиплеер по ссылке через WebRTC без стороннего сервера.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Инженерные особенности</h4>
+            <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #10b981;">✔</span>
+                <span><strong>Мультиплеер по ссылке через WebRTC (P2P):</strong> Прямое соединение игроков браузер-к-браузеру через DataChannels (PeerJS). Игрок генерирует ссылку, отправляет другу, оба жмут «Готов» — и игра начинается с нулевой задержкой. Также доступен режим Hotseat на одном экране.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #10b981;">✔</span>
+                <span><strong>Бесконечный цикл уровней и High Score:</strong> Снято ограничение в 4 уровня, реализована циклическая смена биомов (степь, пустыня, ледники, горы), подсчет очков и сохранение рекорда в localStorage.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #10b981;">✔</span>
+                <span><strong>Визуализация зон хода и атаки:</strong> Динамическая подсветка доступных клеток перемещения и радиуса поражения при выборе юнита, а также предиктивный расчет урона.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #10b981;">✔</span>
+                <span><strong>Умный тактический ИИ (Utility AI):</strong> Компьютер приоритизирует добивание раненых бойцов (focus fire), опасных магов/лучников и осуществляет кайтинг стрелками на безопасное расстояние.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #10b981;">✔</span>
+                <span><strong>PWA Offline First:</strong> Установка как нативное приложение на десктоп и смартфоны, кеширование ассетов через Service Worker.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #34d399; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+            <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">JavaScript ES6+, Webpack 5, PeerJS (WebRTC DataChannels), Workbox PWA, CSS Grid, Web Audio API.</div>
+          </div>
+        </div>
+      `
+    },
     jacovert: {
       badge: 'E-commerce • Дипломный проект',
       title: 'Jacovert Inc. — Платформа продажи кофе и сувениров',
