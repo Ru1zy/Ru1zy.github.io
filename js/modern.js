@@ -145,6 +145,138 @@
         </div>
       `
     },
+    ecar: {
+      badge: 'Game Dev • HTML5 Canvas • Retro Synthwave',
+      title: 'e-caR: Neon Highway Arcade',
+      subtitle: 'HTML5 Canvas • Web Audio API • Touch D-pad • LocalStorage Highscore',
+      url: 'https://ru1zy.github.io/ecar/',
+      urlLabel: 'Играть в e-caR Arcade',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте и концепции</h4>
+            <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+              Высокодинамичная 2D-аркада в эстетике Neon Synthwave / Cyberpunk. Игрок управляет спорткаром на скоростном многополосном шоссе, уворачивается от встречного трафика, ловит турбо-бусты и ставит рекорды на 60 FPS.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Технические и геймплейные решения</h4>
+            <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #ec4899;">✔</span>
+                <span><strong>Pure HTML5 Canvas Engine:</strong> Плавный 60fps рендеринг дорожной разметки с параллакс-перспективой, неоновыми шлейфами фар и системой частиц взрывов.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #ec4899;">✔</span>
+                <span><strong>Полная поддержка мобильных устройств:</strong> Виртуальный полупрозрачный сенсорный D-pad с виброоткликом (Vibration API) и touch-action: none.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #ec4899;">✔</span>
+                <span><strong>Синтезированный звук на Web Audio API:</strong> Динамический шум турбо-двигателя с питч-модуляцией частоты от скорости, звуки заноса и аварии без задержек буферизации.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #ec4899;">✔</span>
+                <span><strong>Динамическая сложность и High Score:</strong> Прогрессивная скорость трафика, множитель очков за близкие обгоны (Near Miss) и сохранение лучшего результата в LocalStorage.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="background: rgba(236, 72, 153, 0.08); border: 1px solid rgba(236, 72, 153, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #f472b6; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+            <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">HTML5 Canvas, JavaScript ES6+, Web Audio API, Vibration API, Touch Events, CSS Glassmorphism.</div>
+          </div>
+        </div>
+      `
+    },
+    playver: {
+      badge: 'Audio & Video • Media Engine',
+      title: 'PlayVer — Cyberpunk Multimedia Station',
+      subtitle: 'Web Audio API • Canvas Visualizer • Live Radio Streams • Custom HTML5 Player',
+      url: 'https://ru1zy.github.io/playver/',
+      urlLabel: 'Запустить PlayVer Studio',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте</h4>
+            <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+              Современная кроссплатформенная медиастанция, объединяющая видеоплеер высокого разрешения, аудиоплеер с динамической анимацией звуковых волн и онлайн-радиоприемник мировых станций.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Инженерные особенности</h4>
+            <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #06b6d4;">✔</span>
+                <span><strong>Web Audio API AnalyserNode:</strong> Снятие частотных характеристик (FFT) в реальном времени и отрисовка неонового 3D/спектрального эквалайзера на Canvas.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #06b6d4;">✔</span>
+                <span><strong>Глобальное Live-радио:</strong> Надежные HTTPS-потоки радиовещания (Synthwave, Chillstep, Lo-Fi, Club) с отображением метаданных и битрейта.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #06b6d4;">✔</span>
+                <span><strong>Кастомные видео-контролы:</strong> Управление скоростью воспроизведения, Picture-in-Picture режим, кастомный прогресс-бар с превью и горячие клавиши.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #06b6d4;">✔</span>
+                <span><strong>Dark Cyberpunk & Glass UI:</strong> Премиальный дизайн с матовым размытием, неоновыми акцентами и полной адаптивностью под телефоны и планшеты.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="background: rgba(6, 182, 212, 0.08); border: 1px solid rgba(6, 182, 212, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #22d3ee; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+            <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">JavaScript ES6+, Web Audio API, Canvas 2D, HTML5 Media, Webpack 5, Responsive CSS3.</div>
+          </div>
+        </div>
+      `
+    },
+    cinema: {
+      badge: 'Interactive UI • Cinema Reservation',
+      title: 'Cin.Emma — IMAX Cinema Seat Booking Platform',
+      subtitle: 'Dynamic SVG Hall • Seat Reservation • Snack Add-ons • Virtual QR Pass',
+      url: 'https://ru1zy.github.io/cinema/',
+      urlLabel: 'Открыть демо Cin.Emma',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте</h4>
+            <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+              Премиальный сервис бронирования билетов в кинотеатр нового поколения: детальная интерактивная векторная схема зала с градацией комфорта мест, выбором форматов показа (IMAX Laser / Dolby Atmos) и мгновенным чекаутом.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Возможности интерфейса</h4>
+            <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #f59e0b;">✔</span>
+                <span><strong>Векторная схема зала (SVG + DOM):</strong> Интерактивный выбор мест в партере и на VIP-диванах, динамический подсчет стоимости с учетом тарифов и скидок.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #f59e0b;">✔</span>
+                <span><strong>Выбор сеансов и форматов:</strong> Быстрое переключение времени показа, даты и зала с обновлением занятости мест.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #f59e0b;">✔</span>
+                <span><strong>Корзина снеков и напитков:</strong> Возможность добавить попкорн, начос и напитки прямо к заказу с мгновенным пересчетом чека.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #f59e0b;">✔</span>
+                <span><strong>Генерация электронного билета с QR-кодом:</strong> Полноценный посадочный талон для сохранения на устройство и демонстрации на контроле.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #fbbf24; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+            <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">JavaScript ES6+, SVG DOM, Modern CSS Glassmorphism, QR Generator, LocalStorage.</div>
+          </div>
+        </div>
+      `
+    },
     jacovert: {
       badge: 'E-commerce • Дипломный проект',
       title: 'Jacovert Inc. — Платформа продажи кофе и сувениров',
