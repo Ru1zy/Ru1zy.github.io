@@ -1,133 +1,545 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--для соцсетей мета тэги-->
-    <meta property="og:url" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="2ez4ru1z - разработка всяческого">
-    <meta property="og:image" content="img/favicon-32x32.png">
-    <meta property="og:description" content="Закажите разработку сайта без посредников">
-    <meta property="og:site_name" content="Портфолио">
-    <meta property="article:author" content="2ez4ru1z">
-    <!--Заголовок-->
-    <title>2ez4ru1z</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/fontello-embedded.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="main parallax-window" data-parallax="scroll" data-speed="0.25" data-image-src="img/main-bg.jpg">
-        <div class="main-overlay"></div>
-      <div class="wrapper">
-        <div class="main-header">
-            <h1>2ez4ru1z <a href="https://t.me/ru1zy" target="_blank"><i class="icon-telegram"></i></a></h1>
-            <div class="main-line"></div>
-                <p>Вёрстка <br> Разработка сайтов <br> и всяческого</p>
-         </div>
-      </div>
-      <div id="main-down"><a class="main-down" href="#port"><i class="icon-down"></i></a></div>
-    </div> 
-    <div class="portfolio">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06070b">
+
+  <!-- Primary Meta Tags -->
+  <title>2ez4ru1z — Fullstack & Frontend Engineer | Portfolio</title>
+  <meta name="title" content="2ez4ru1z — Fullstack & Frontend Engineer | Portfolio">
+  <meta name="description" content="Разработка высоконагруженных веб-сервисов, e-commerce платформ, Telegram-ботов и интерактивных интерфейсов с высокой конверсией и безупречной скоростью.">
+  <meta name="author" content="2ez4ru1z">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ru1zy.github.io/">
+  <meta property="og:title" content="2ez4ru1z — Fullstack & Frontend Engineer">
+  <meta property="og:description" content="Разработка современных веб-сервисов, e-commerce решений и Telegram-экосистем. Флагманский проект: FoodBalance.">
+  <meta property="og:image" content="img/favicon-32x32.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ru1zy.github.io/">
+  <meta property="twitter:title" content="2ez4ru1z — Fullstack & Frontend Engineer">
+  <meta property="twitter:description" content="Разработка современных веб-сервисов, e-commerce решений и Telegram-экосистем.">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Modern Design System Styles -->
+  <link rel="stylesheet" href="css/modern.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="logo-badge">
+          <div class="logo-icon">241</div>
+          <span>2ez4ru1z</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#projects" class="nav-link">Проекты</a></li>
+          <li><a href="#skills" class="nav-link">Стек</a></li>
+          <li><a href="#contact" class="nav-link">Контакты</a></li>
+        </ul>
+
+        <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+          <span>Telegram</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
       <div class="container">
-        <h2 class="pf-header" id="port">Портфолио</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/1.png" alt = "Работа №1">
-              <a data-toggle="modal" data-work="work-1" href="#work" target="_blank">Смотреть работу</a>
+        <div class="hero-grid">
+          <div class="hero-content fade-up">
+            <div class="status-pill">
+              <span class="pulse-dot"></span>
+              <span>Открыт для новых проектов и амбициозных задач</span>
+            </div>
+
+            <h1 class="hero-title">
+              Fullstack &amp; <br>
+              <span class="gradient-text">Frontend Engineer</span>
+            </h1>
+
+            <p class="hero-desc">
+              Проектирую и создаю высокопроизводительные веб-приложения, e-commerce сервисы и Telegram-экосистемы. Фокусируюсь на чистой архитектуре, конверсии и премиальном UX с быстрой загрузкой.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>Смотреть проекты</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </a>
+
+              <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <span>Написать в Telegram</span>
+              </a>
+
+              <div class="social-strip">
+                <a href="https://github.com/Ru1zy" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+                <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Telegram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </a>
+                <a href="https://instagram.com/2ez4ru1z" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/2.png" alt = "Работа №2">
-              <a data-toggle="modal" data-work="work-2" href="#work" target="_blank">Смотреть работу</a>
+
+          <!-- Hero Bento Highlights Card -->
+          <div class="hero-card fade-up spotlight-card">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+              <span class="mono" style="font-size: 0.8rem; color: var(--accent-emerald);">// SYSTEM PROFILE</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted);">v2026.09</span>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/3.png" alt = "Работа №3">
-              <a data-toggle="modal" data-work="work-3" href="#work" target="_blank">Смотреть работу</a>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Инженерная экспертиза</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+              Комплексный цикл: от проектирования структуры базы данных и платежных шлюзов до адаптивного интерфейса и поисковой оптимизации.
+            </p>
+
+            <div class="hero-stats-grid">
+              <div class="stat-box">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Лет опыта</div>
               </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/3.png" alt = "Работа №4">
-              <a data-toggle="modal" data-work="work-4" href="#work" target="_blank">Смотреть работу</a>
+              <div class="stat-box">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Production Uptime</div>
               </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/3.png" alt = "Работа №5">
-              <a data-toggle="modal" data-work="work-5" href="#work" target="_blank">Смотреть работу</a>
+              <div class="stat-box">
+                <div class="stat-number">&lt; 1.2s</div>
+                <div class="stat-label">LCP Скорость</div>
               </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pf-block">
-              <img src = "img/portfolio/3.png" alt = "Работа №6">
-              <a data-toggle="modal" data-work="work-6" href="#work" target="_blank">Смотреть работу</a>
+              <div class="stat-box">
+                <div class="stat-number">Next.js</div>
+                <div class="stat-label">App Router 16</div>
               </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <footer>
+    </section>
+
+    <!-- Selected Works / Portfolio Section -->
+    <section class="section" id="projects">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <strong>2ez4ru1z</strong>
-            <p>Разработка всяческого</p>
+        <div class="section-header fade-up">
+          <div>
+            <div class="section-tag">// ИЗБРАННЫЕ КЕЙСЫ</div>
+            <h2 class="section-title">Проекты, созданные для результата</h2>
+            <p class="section-subtitle">Реальные работающие решения с продуманной архитектурой и вниманием к деталям.</p>
           </div>
-          <div class="col-lg-6">
-            <strong>Follow me</strong>
-            <div class="social-links">
-              <a href="https://vk.com/2ez4ru1z" class="icon-vk" target="_blank"></a>
-              <a href="https://t.me/ru1zy" class="icon-telegram" target="_blank"></a>
-              <a href="https://www.instagram.com/2ez4ru1z" class="icon-instagram" target="_blank"></a>
+        </div>
+
+        <div class="bento-grid">
+          <!-- FLAGSHIP CARD: FOODBALANCE -->
+          <div class="col-flagship fade-up">
+            <div class="spotlight-card flagship-card">
+              <div class="flagship-info">
+                <div class="flagship-badge">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  <span>Флагманский проект • 2026</span>
+                </div>
+
+                <h3 class="flagship-title">FoodBalance</h3>
+                <div class="flagship-role">
+                  <span>Lead Fullstack Developer &amp; Architect</span>
+                  <span>•</span>
+                  <span>foodbalance.com.ua</span>
+                </div>
+
+                <p class="flagship-desc">
+                  Полнофункциональный веб-сервис доставки сбалансированного питания в Запорожье. Включает многодневные абонементы, интерактивный конструктор рациона с расчетом КБЖУ, автоматизированный чекаут со смешанной оплатой и синхронизацию с кухней.
+                </p>
+
+                <ul class="feature-list">
+                  <li class="feature-item">
+                    <div class="feature-icon">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                    </div>
+                    <span><strong>Умный чекаут:</strong> списание дней абонемента + динамическая доплата за дополнительные рационы и спорт-меню.</span>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-icon">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                    </div>
+                    <span><strong>Monobank Plata API:</strong> безопасная онлайн-оплата, мгновенная обработка вебхуков, защита от дублирования транзакций.</span>
+                  </li>
+                  <li class="feature-item">
+                    <div class="feature-icon">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                      </svg>
+                    </div>
+                    <span><strong>Google Sheets &amp; Telegram:</strong> автоматическая передача заказов в таблицы кухни и бот-уведомления менеджерам в реальном времени.</span>
+                  </li>
+                </ul>
+
+                <div class="tech-pills">
+                  <span class="tech-pill highlight">Next.js 16</span>
+                  <span class="tech-pill highlight">TypeScript</span>
+                  <span class="tech-pill highlight">Tailwind CSS</span>
+                  <span class="tech-pill">Prisma ORM</span>
+                  <span class="tech-pill">Monobank Plata</span>
+                  <span class="tech-pill">Telegram Webhooks</span>
+                  <span class="tech-pill">Google Sheets API</span>
+                  <span class="tech-pill">Zustand</span>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                  <a href="https://foodbalance.com.ua" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 0.65rem 1.25rem; font-size: 0.88rem;">
+                    <span>Открыть сайт</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+
+                  <button class="btn btn-secondary" data-open-case="foodbalance" style="padding: 0.65rem 1.25rem; font-size: 0.88rem;">
+                    <span>Детали кейса</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Flagship Showcase Mockup -->
+              <div class="flagship-showcase">
+                <div class="mockup-window">
+                  <div class="mockup-header">
+                    <div class="mockup-dot"></div>
+                    <div class="mockup-dot"></div>
+                    <div class="mockup-dot"></div>
+                    <div class="mockup-url">
+                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                      </svg>
+                      <span>https://foodbalance.com.ua</span>
+                    </div>
+                  </div>
+
+                  <div class="mockup-body">
+                    <div class="mockup-card-metric">
+                      <span style="font-size: 0.85rem; font-weight: 600; color: #ffffff;">Статус сервиса</span>
+                      <span class="mockup-status-tag">
+                        <span class="pulse-dot" style="width: 6px; height: 6px;"></span>
+                        <span>Production Live</span>
+                      </span>
+                    </div>
+
+                    <div class="mockup-card-metric">
+                      <span style="font-size: 0.85rem; color: #94a3b8;">Автоматизация процессов</span>
+                      <span class="mono" style="font-size: 0.9rem; font-weight: 700; color: #34d399;">100% Zero-Touch</span>
+                    </div>
+
+                    <div class="mockup-diagram">
+                      <div style="color: #64748b; margin-bottom: 0.4rem;">// СТЕК СИНХРОНИЗАЦИИ ДАННЫХ</div>
+                      <div style="color: #38bdf8;">→ Client Cart (Zustand + SSR)</div>
+                      <div style="color: #a78bfa;">→ Next.js 16 Server Actions</div>
+                      <div style="color: #34d399;">→ Monobank Plata Webhook Verified</div>
+                      <div style="color: #fbbf24;">→ Google Sheets (Кухня &amp; Логистика)</div>
+                      <div style="color: #4ade80;">→ Telegram Bot Alert Dispatch</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-3">
-            <strong>Напиши мне, еси хош</strong>
-            <a href="https://t.me/ru1zy" class="offer-button" target="_blank">Here we go again</a>
+
+          <!-- PROJECT 2: JACOVERT INC -->
+          <div class="col-card-6 fade-up">
+            <div class="spotlight-card project-card">
+              <div class="project-card-header">
+                <div class="project-category">// E-COMMERCE &amp; RETAIL</div>
+                <h3 class="project-title">Jacovert Inc.</h3>
+                <p class="project-desc">
+                  Многофункциональный интернет-магазин по продаже премиального кофе, аксессуаров и сувениров. Каталог с живой фильтрацией, корзина и структурированная база данных.
+                </p>
+                <div class="tech-pills">
+                  <span class="tech-pill">PHP</span>
+                  <span class="tech-pill">JavaScript ES6</span>
+                  <span class="tech-pill">MySQL</span>
+                  <span class="tech-pill">Bootstrap &amp; CSS3</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Дипломный проект</span>
+                <button class="card-link-btn" data-open-case="jacovert">
+                  <span>Смотреть кейс</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
-        </div> 
+
+          <!-- PROJECT 3: TELEGRAM AUTOMATION -->
+          <div class="col-card-6 fade-up">
+            <div class="spotlight-card project-card">
+              <div class="project-card-header">
+                <div class="project-category">// БИЗНЕС-АВТОМАТИЗАЦИЯ</div>
+                <h3 class="project-title">Telegram Bot Ecosystems</h3>
+                <p class="project-desc">
+                  Разработка надежных ботов для мессенджеров: прием и маршрутизация заказов, прием платежей, интеграция с CRM-системами и мгновенные пуш-оповещения персонала.
+                </p>
+                <div class="tech-pills">
+                  <span class="tech-pill">Node.js</span>
+                  <span class="tech-pill">Telegram Bot API</span>
+                  <span class="tech-pill">Webhooks</span>
+                  <span class="tech-pill">PostgreSQL</span>
+                </div>
+              </div>
+
+              <div class="project-footer">
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Интеграции &amp; CRM</span>
+                <button class="card-link-btn" data-open-case="telegram-bots">
+                  <span>Смотреть кейс</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: INTERACTIVE WEB & LANDINGS -->
+          <div class="col-flagship fade-up">
+            <div class="spotlight-card project-card" style="padding: 2.25rem;">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                  <div class="project-category">// FRONTEND &amp; SPEED</div>
+                  <h3 class="project-title">High-Performance Web &amp; Interactive UI</h3>
+                  <p class="project-desc" style="max-width: 700px;">
+                    Разработка представительских сайтов и посадочных страниц с безупречным dark mode, плавными 60fps микровзаимодействиями, поддержкой prefers-reduced-motion и скоростью загрузки 95+ по Google PageSpeed.
+                  </p>
+                  <div class="tech-pills">
+                    <span class="tech-pill">HTML5 / Semantic</span>
+                    <span class="tech-pill">Modern CSS Tokens</span>
+                    <span class="tech-pill">W3C Motion Tokens</span>
+                    <span class="tech-pill">Mobile-First</span>
+                    <span class="tech-pill">SEO &amp; A11y</span>
+                  </div>
+                </div>
+
+                <button class="btn btn-secondary" data-open-case="interactive-web" style="align-self: center;">
+                  <span>Узнать подробнее</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-    
-    <!--Модалки для работ-->
-<div class="modal fade" id="work" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Описание проекта</h4>
+    </section>
+
+    <!-- Skills & Capabilities Bento -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header fade-up">
+          <div>
+            <div class="section-tag">// ТЕХНОЛОГИЧЕСКИЙ СТЕК</div>
+            <h2 class="section-title">Инструменты и экспертиза</h2>
+            <p class="section-subtitle">Использую только современные и проверенные решения, дающие стабильность и масштабируемость.</p>
+          </div>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Cell 1: Frontend -->
+          <div class="col-card-4 fade-up">
+            <div class="spotlight-card" style="padding: 2rem; height: 100%;">
+              <div class="mono" style="font-size: 0.8rem; color: var(--accent-emerald); margin-bottom: 0.5rem;">01 / FRONTEND</div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Клиентский уровень</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                Создание отзывчивых, доступных и визуально выразительных интерфейсов.
+              </p>
+              <div class="tech-pills">
+                <span class="tech-pill highlight">Next.js 16</span>
+                <span class="tech-pill highlight">React 19</span>
+                <span class="tech-pill highlight">TypeScript</span>
+                <span class="tech-pill">Tailwind CSS</span>
+                <span class="tech-pill">Modern CSS Tokens</span>
+                <span class="tech-pill">Framer Motion &amp; GSAP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cell 2: Backend & Integrations -->
+          <div class="col-card-4 fade-up">
+            <div class="spotlight-card" style="padding: 2rem; height: 100%;">
+              <div class="mono" style="font-size: 0.8rem; color: var(--accent-cyan); margin-bottom: 0.5rem;">02 / BACKEND &amp; API</div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Сервер и интеграции</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                Надежные API, работа с базами данных, вебхуками и финансовыми шлюзами.
+              </p>
+              <div class="tech-pills">
+                <span class="tech-pill highlight">Node.js</span>
+                <span class="tech-pill highlight">PostgreSQL</span>
+                <span class="tech-pill highlight">Prisma ORM</span>
+                <span class="tech-pill">Monobank Plata API</span>
+                <span class="tech-pill">Telegram Bot API</span>
+                <span class="tech-pill">Google Drive &amp; Sheets API</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cell 3: Quality & Process -->
+          <div class="col-card-4 fade-up">
+            <div class="spotlight-card" style="padding: 2rem; height: 100%;">
+              <div class="mono" style="font-size: 0.8rem; color: var(--accent-indigo); margin-bottom: 0.5rem;">03 / ARCHITECTURE</div>
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Инженерия и качество</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                Фокус на скорости, защищенности, поддержке чистого кода и SEO.
+              </p>
+              <div class="tech-pills">
+                <span class="tech-pill highlight">Core Web Vitals 95+</span>
+                <span class="tech-pill highlight">SEO Semantic</span>
+                <span class="tech-pill">WCAG 2.1 a11y</span>
+                <span class="tech-pill">Git &amp; GitHub Actions</span>
+                <span class="tech-pill">Zero-Downtime Deploy</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-         <!--js script-->
+    </section>
+
+    <!-- Contact & Call to Action -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta-banner fade-up spotlight-card">
+          <div class="status-pill" style="margin-bottom: 1rem;">
+            <span class="pulse-dot"></span>
+            <span>Готов к диалогу</span>
+          </div>
+
+          <h2 class="cta-title">Давайте обсудим ваш проект</h2>
+          <p class="cta-desc">
+            Нужен современный веб-сервис, интернет-магазин, надежный Telegram-бот или редизайн интерфейса? Напишите мне в Telegram — отвечу быстро и по существу.
+          </p>
+
+          <div class="cta-buttons">
+            <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Написать в Telegram (@ru1zy)</span>
+            </a>
+
+            <button class="btn btn-secondary" data-copy-text="@ru1zy" title="Скопировать никнейм">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Скопировать контакт</span>
+            </button>
+
+            <a href="https://github.com/Ru1zy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="portfolio-footer">
+    <div class="container">
+      <div class="footer-flex">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="logo-icon" style="width: 34px; height: 28px; font-size: 0.75rem;">241</div>
+          <span style="color: #cbd5e1; font-weight: 700;">2ez4ru1z</span>
+          <span style="color: var(--text-muted);">— Fullstack &amp; Frontend Engineering</span>
+        </div>
+
+        <div>
+          <p>© 2026 2ez4ru1z. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Case Study Modal -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Закрыть модальное окно">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-content-inner">
+        <span class="mono" style="font-size: 0.8rem; color: var(--accent-emerald);" id="modalBadge"></span>
+        <h3 id="modalTitle" style="font-size: 1.6rem; font-weight: 800; margin: 0.5rem 0; color: #ffffff;"></h3>
+        <p id="modalSubtitle" class="mono" style="font-size: 0.85rem; color: var(--accent-cyan); margin-bottom: 1rem;"></p>
+
+        <div id="modalBody"></div>
+
+        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: flex-end;">
+          <a href="#" target="_blank" rel="noopener noreferrer" id="modalActionBtn" class="btn btn-primary" style="padding: 0.7rem 1.4rem; font-size: 0.9rem;"></a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-    <!-- jQuery for BS'JS plugins -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/parallax.min.js"></script>
-  </body>
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite"></div>
+
+  <!-- Modern JS Script -->
+  <script src="js/modern.js"></script>
+</body>
 </html>
