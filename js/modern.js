@@ -101,8 +101,10 @@
       badge: 'Game Dev • WebRTC P2P • PWA',
       title: 'Fantasy Tactics 2D — Браузерная пошаговая стратегия',
       subtitle: 'JavaScript ES6 • Webpack 5 • PeerJS (WebRTC) • Workbox PWA • Utility AI',
-      url: 'https://github.com/Ru1zy/game-fantasy-pwa',
-      urlLabel: 'Открыть репозиторий на GitHub',
+      url: 'https://ru1zy.github.io/game-fantasy-pwa/',
+      urlLabel: 'Играть в браузере (GitHub Pages)',
+      secondaryUrl: 'https://github.com/Ru1zy/game-fantasy-pwa',
+      secondaryLabel: 'Репозиторий на GitHub',
       content: `
         <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
           <div>
@@ -391,6 +393,7 @@
   const modalSubtitle = document.getElementById('modalSubtitle');
   const modalBody = document.getElementById('modalBody');
   const modalActionBtn = document.getElementById('modalActionBtn');
+  const modalSecondaryBtn = document.getElementById('modalSecondaryBtn');
 
   function openProjectModal(key) {
     const data = projectsData[key];
@@ -402,6 +405,14 @@
     modalBody.innerHTML = data.content;
     modalActionBtn.href = data.url;
     modalActionBtn.textContent = data.urlLabel;
+
+    if (data.secondaryUrl && modalSecondaryBtn) {
+      modalSecondaryBtn.href = data.secondaryUrl;
+      modalSecondaryBtn.textContent = data.secondaryLabel || 'Репозиторий на GitHub';
+      modalSecondaryBtn.style.display = 'inline-flex';
+    } else if (modalSecondaryBtn) {
+      modalSecondaryBtn.style.display = 'none';
+    }
 
     modalOverlay.classList.add('open');
     document.body.style.overflow = 'hidden';
