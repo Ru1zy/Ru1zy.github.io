@@ -395,8 +395,17 @@
   const modalActionBtn = document.getElementById('modalActionBtn');
   const modalSecondaryBtn = document.getElementById('modalSecondaryBtn');
 
+  function getCaseData(key) {
+    if (window.PortfolioI18n && typeof window.PortfolioI18n.getProjectData === 'function') {
+      const i18nData = window.PortfolioI18n.getProjectData(key);
+      if (i18nData) return i18nData;
+    }
+    return projectsData[key] || null;
+  }
+
   function openProjectModal(key) {
-    const data = projectsData[key];
+    window._currentOpenCaseKey = key;
+    const data = getCaseData(key);
     if (!data || !modalOverlay) return;
 
     modalBadge.textContent = data.badge;
@@ -408,7 +417,10 @@
 
     if (data.secondaryUrl && modalSecondaryBtn) {
       modalSecondaryBtn.href = data.secondaryUrl;
-      modalSecondaryBtn.textContent = data.secondaryLabel || 'Репозиторий на GitHub';
+      const defaultSecondaryLabel = (window.PortfolioI18n && typeof window.PortfolioI18n.t === 'function')
+        ? window.PortfolioI18n.t('modalRepoGithub')
+        : 'Репозиторий на GitHub';
+      modalSecondaryBtn.textContent = data.secondaryLabel || defaultSecondaryLabel;
       modalSecondaryBtn.style.display = 'inline-flex';
     } else if (modalSecondaryBtn) {
       modalSecondaryBtn.style.display = 'none';
@@ -418,10 +430,17 @@
     document.body.style.overflow = 'hidden';
   }
 
+  window._reopenCurrentModal = function () {
+    if (window._currentOpenCaseKey && modalOverlay && modalOverlay.classList.contains('open')) {
+      openProjectModal(window._currentOpenCaseKey);
+    }
+  };
+
   function closeProjectModal() {
     if (!modalOverlay) return;
     modalOverlay.classList.remove('open');
     document.body.style.overflow = '';
+    window._currentOpenCaseKey = null;
   }
 
   document.querySelectorAll('[data-open-case]').forEach(btn => {
@@ -472,9 +491,13 @@
       const text = btn.getAttribute('data-copy-text');
       if (!text) return;
 
+      const copiedMsg = (window.PortfolioI18n && typeof window.PortfolioI18n.t === 'function')
+        ? window.PortfolioI18n.t('ctaCopied')
+        : '✓ Скопировано в буфер: @ru1zy';
+
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(() => {
-          showToast(`✓ Скопировано в буфер: ${text}`);
+          showToast(copiedMsg);
         }).catch(() => {
           showToast(`Контакт: ${text}`);
         });

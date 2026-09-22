@@ -51,18 +51,26 @@
         </a>
 
         <ul class="nav-links">
-          <li><a href="#projects" class="nav-link">Проекты</a></li>
-          <li><a href="#skills" class="nav-link">Стек</a></li>
-          <li><a href="#contact" class="nav-link">Контакты</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="navProjects">Проекты</a></li>
+          <li><a href="#skills" class="nav-link" data-i18n="navSkills">Стек</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="navContact">Контакты</a></li>
         </ul>
 
-        <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="nav-cta">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="22" y1="2" x2="11" y2="13"></line>
-            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-          </svg>
-          <span>Telegram</span>
-        </a>
+        <div class="nav-actions">
+          <div class="lang-switcher" role="group" aria-label="Language selection">
+            <button type="button" class="lang-btn active" data-lang="ru" aria-label="Русский язык" aria-pressed="true">RU</button>
+            <button type="button" class="lang-btn" data-lang="ua" aria-label="Українська мова" aria-pressed="false">UA</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-label="English" aria-pressed="false">EN</button>
+          </div>
+
+          <a href="https://t.me/ru1zy" target="_blank" rel="noopener noreferrer" class="nav-cta">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            <span data-i18n="navCta">Telegram</span>
+          </a>
+        </div>
       </nav>
     </div>
   </header>
@@ -75,21 +83,21 @@
           <div class="hero-content fade-up">
             <div class="status-pill">
               <span class="pulse-dot"></span>
-              <span>Открыт для новых проектов и амбициозных задач</span>
+              <span data-i18n="heroStatus">Открыт для новых проектов и амбициозных задач</span>
             </div>
 
             <h1 class="hero-title">
-              Fullstack &amp; <br>
-              <span class="gradient-text">Frontend Engineer</span>
+              <span data-i18n="heroTitlePrefix">Fullstack &amp;</span> <br>
+              <span class="gradient-text" data-i18n="heroTitleGradient">Frontend Engineer</span>
             </h1>
 
-            <p class="hero-desc">
+            <p class="hero-desc" data-i18n="heroDesc">
               Проектирую и создаю высокопроизводительные веб-приложения, e-commerce сервисы и Telegram-экосистемы. Фокусируюсь на чистой архитектуре, конверсии и премиальном UX с быстрой загрузкой.
             </p>
 
             <div class="hero-actions">
               <a href="#projects" class="btn btn-primary">
-                <span>Смотреть проекты</span>
+                <span data-i18n="heroBtnProjects">Смотреть проекты</span>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <polyline points="19 12 12 19 5 12"></polyline>
@@ -100,7 +108,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                 </svg>
-                <span>Написать в Telegram</span>
+                <span data-i18n="heroBtnTelegram">Написать в Telegram</span>
               </a>
 
               <div class="social-strip">
@@ -118,8 +126,6 @@
                 <a href="https://instagram.com/2ez4ru1z" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                   </svg>
                 </a>
               </div>
@@ -129,30 +135,30 @@
           <!-- Hero Bento Highlights Card -->
           <div class="hero-card fade-up spotlight-card">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
-              <span class="mono" style="font-size: 0.8rem; color: var(--accent-emerald);">// SYSTEM PROFILE</span>
+              <span class="mono" style="font-size: 0.8rem; color: var(--accent-emerald);" data-i18n="bentoSystemProfile">// SYSTEM PROFILE</span>
               <span style="font-size: 0.75rem; color: var(--text-muted);">v2026.09</span>
             </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Инженерная экспертиза</h3>
-            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;" data-i18n="bentoTitle">Инженерная экспертиза</h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;" data-i18n="bentoDesc">
               Комплексный цикл: от проектирования структуры базы данных и платежных шлюзов до адаптивного интерфейса и поисковой оптимизации.
             </p>
 
             <div class="hero-stats-grid">
               <div class="stat-box">
                 <div class="stat-number">5+</div>
-                <div class="stat-label">Лет опыта</div>
+                <div class="stat-label" data-i18n="statYears">Лет опыта</div>
               </div>
               <div class="stat-box">
                 <div class="stat-number">100%</div>
-                <div class="stat-label">Production Uptime</div>
+                <div class="stat-label" data-i18n="statUptime">Production Uptime</div>
               </div>
               <div class="stat-box">
                 <div class="stat-number">&lt; 1.2s</div>
-                <div class="stat-label">LCP Скорость</div>
+                <div class="stat-label" data-i18n="statLcp">LCP Скорость</div>
               </div>
               <div class="stat-box">
                 <div class="stat-number">Next.js</div>
-                <div class="stat-label">App Router 16</div>
+                <div class="stat-label" data-i18n="statStack">App Router 16</div>
               </div>
             </div>
           </div>
@@ -165,9 +171,9 @@
       <div class="container">
         <div class="section-header fade-up">
           <div>
-            <div class="section-tag">// ИЗБРАННЫЕ КЕЙСЫ</div>
-            <h2 class="section-title">Проекты, созданные для результата</h2>
-            <p class="section-subtitle">Реальные работающие решения с продуманной архитектурой и вниманием к деталям.</p>
+            <div class="section-tag" data-i18n="sectionProjectsTag">// ИЗБРАННЫЕ КЕЙСЫ</div>
+            <h2 class="section-title" data-i18n="sectionProjectsTitle">Проекты, созданные для результата</h2>
+            <p class="section-subtitle" data-i18n="sectionProjectsSubtitle">Реальные работающие решения с продуманной архитектурой и вниманием к деталям.</p>
           </div>
         </div>
 
@@ -180,17 +186,17 @@
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                     <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                   </svg>
-                  <span>Флагманский проект • 2026</span>
+                  <span data-i18n="flagshipBadge">Флагманский проект • 2026</span>
                 </div>
 
                 <h3 class="flagship-title">FoodBalance</h3>
-                <div class="flagship-role">
+                <div class="flagship-role" data-i18n="flagshipRole">
                   <span>Lead Fullstack Developer &amp; Architect</span>
                   <span>•</span>
                   <span>foodbalance.com.ua</span>
                 </div>
 
-                <p class="flagship-desc">
+                <p class="flagship-desc" data-i18n="flagshipDesc">
                   Полнофункциональный веб-сервис доставки сбалансированного питания в Запорожье. Включает многодневные абонементы, интерактивный конструктор рациона с расчетом КБЖУ, автоматизированный чекаут со смешанной оплатой и синхронизацию с кухней.
                 </p>
 
@@ -201,7 +207,7 @@
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
                     </div>
-                    <span><strong>Умный чекаут:</strong> списание дней абонемента + динамическая доплата за дополнительные рационы и спорт-меню.</span>
+                    <span data-i18n-html="flagshipFeature1"><strong>Умный чекаут:</strong> списание дней абонемента + динамическая доплата за дополнительные рационы и спорт-меню.</span>
                   </li>
                   <li class="feature-item">
                     <div class="feature-icon">
@@ -209,7 +215,7 @@
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
                     </div>
-                    <span><strong>Monobank Plata API:</strong> безопасная онлайн-оплата, мгновенная обработка вебхуков, защита от дублирования транзакций.</span>
+                    <span data-i18n-html="flagshipFeature2"><strong>Monobank Plata API:</strong> безопасная онлайн-оплата, мгновенная обработка вебхуков, защита от дублирования транзакций.</span>
                   </li>
                   <li class="feature-item">
                     <div class="feature-icon">
@@ -217,7 +223,7 @@
                         <polyline points="20 6 9 17 4 12"></polyline>
                       </svg>
                     </div>
-                    <span><strong>Google Sheets &amp; Telegram:</strong> автоматическая передача заказов в таблицы кухни и бот-уведомления менеджерам в реальном времени.</span>
+                    <span data-i18n-html="flagshipFeature3"><strong>Google Sheets &amp; Telegram:</strong> автоматическая передача заказов в таблицы кухни и бот-уведомления менеджерам в реальном времени.</span>
                   </li>
                 </ul>
 
@@ -234,7 +240,7 @@
 
                 <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
                   <a href="https://foodbalance.com.ua" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 0.65rem 1.25rem; font-size: 0.88rem;">
-                    <span>Открыть сайт</span>
+                    <span data-i18n="flagshipBtnSite">Открыть сайт</span>
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                       <polyline points="15 3 21 3 21 9"></polyline>
@@ -243,7 +249,7 @@
                   </a>
 
                   <button class="btn btn-secondary" data-open-case="foodbalance" style="padding: 0.65rem 1.25rem; font-size: 0.88rem;">
-                    <span>Детали кейса</span>
+                    <span data-i18n="flagshipBtnDetails">Детали кейса</span>
                   </button>
                 </div>
               </div>
@@ -266,20 +272,20 @@
 
                   <div class="mockup-body">
                     <div class="mockup-card-metric">
-                      <span style="font-size: 0.85rem; font-weight: 600; color: #ffffff;">Статус сервиса</span>
+                      <span style="font-size: 0.85rem; font-weight: 600; color: #ffffff;" data-i18n="mockupStatusLabel">Статус сервиса</span>
                       <span class="mockup-status-tag">
                         <span class="pulse-dot" style="width: 6px; height: 6px;"></span>
-                        <span>Production Live</span>
+                        <span data-i18n="mockupStatusLive">Production Live</span>
                       </span>
                     </div>
 
                     <div class="mockup-card-metric">
-                      <span style="font-size: 0.85rem; color: #94a3b8;">Автоматизация процессов</span>
-                      <span class="mono" style="font-size: 0.9rem; font-weight: 700; color: #34d399;">100% Zero-Touch</span>
+                      <span style="font-size: 0.85rem; color: #94a3b8;" data-i18n="mockupAutomationLabel">Автоматизация процессов</span>
+                      <span class="mono" style="font-size: 0.9rem; font-weight: 700; color: #34d399;" data-i18n="mockupAutomationVal">100% Zero-Touch</span>
                     </div>
 
                     <div class="mockup-diagram">
-                      <div style="color: #64748b; margin-bottom: 0.4rem;">// СТЕК СИНХРОНИЗАЦИИ ДАННЫХ</div>
+                      <div style="color: #64748b; margin-bottom: 0.4rem;" data-i18n="mockupDiagramTitle">// СТЕК СИНХРОНИЗАЦИИ ДАННЫХ</div>
                       <div style="color: #38bdf8;">→ Client Cart (Zustand + SSR)</div>
                       <div style="color: #a78bfa;">→ Next.js 16 Server Actions</div>
                       <div style="color: #34d399;">→ Monobank Plata Webhook Verified</div>
@@ -296,9 +302,9 @@
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// GAMEDEV &amp; WEBRTC P2P</div>
+                <div class="project-category" data-i18n="p2Category">// GAMEDEV &amp; WEBRTC P2P</div>
                 <h3 class="project-title">Fantasy Tactics 2D (PWA)</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p2Desc">
                   Пошаговая тактическая 2D-стратегия с бесконечным циклом уровней, визуализацией зон хода/атаки, умным Utility AI и мультиплеером по ссылке через WebRTC DataChannels без стороннего бэкенда.
                 </p>
                 <div class="tech-pills">
@@ -312,7 +318,7 @@
 
               <div class="project-footer">
                 <a href="https://ru1zy.github.io/game-fantasy-pwa/" target="_blank" rel="noopener noreferrer" class="card-link-btn" style="border-color: rgba(16, 185, 129, 0.4);">
-                  <span>Играть онлайн</span>
+                  <span data-i18n="btnPlayOnline">Играть онлайн</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -320,7 +326,7 @@
                   </svg>
                 </a>
                 <button class="card-link-btn" data-open-case="fantasy-game">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -334,9 +340,9 @@
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// GAMEDEV &amp; CANVAS 2D</div>
+                <div class="project-category" data-i18n="p3Category">// GAMEDEV &amp; CANVAS 2D</div>
                 <h3 class="project-title">e-caR: Neon Highway Arcade</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p3Desc">
                   Динамичная ретровейв 2D-гонка на чистом HTML5 Canvas и Web Audio API. Неоновая шоссейная физика, ускорение, комбо-множители очков, адаптивный сенсорный D-pad для смартфонов и сохранение рекордов.
                 </p>
                 <div class="tech-pills">
@@ -350,7 +356,7 @@
 
               <div class="project-footer">
                 <a href="https://ru1zy.github.io/ecar/" target="_blank" rel="noopener noreferrer" class="card-link-btn" style="border-color: rgba(236, 72, 153, 0.4);">
-                  <span>Играть в браузере</span>
+                  <span data-i18n="btnPlayBrowser">Играть в браузере</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -358,7 +364,7 @@
                   </svg>
                 </a>
                 <button class="card-link-btn" data-open-case="ecar">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -372,9 +378,9 @@
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// AUDIO &amp; VIDEO ENGINE</div>
+                <div class="project-category" data-i18n="p4Category">// AUDIO &amp; VIDEO ENGINE</div>
                 <h3 class="project-title">PlayVer: Cyberpunk Media Station</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p4Desc">
                   Многофункциональный медиа-комбайн: плеер локального видео/аудио, динамический частотный спектр-визуализатор на Web Audio API, глобальные радиостанции реального времени (Synthwave, Lo-Fi, Club) и кастомные элементы управления.
                 </p>
                 <div class="tech-pills">
@@ -388,7 +394,7 @@
 
               <div class="project-footer">
                 <a href="https://ru1zy.github.io/playver/" target="_blank" rel="noopener noreferrer" class="card-link-btn" style="border-color: rgba(6, 182, 212, 0.4);">
-                  <span>Запустить плеер</span>
+                  <span data-i18n="btnLaunchPlayer">Запустить плеер</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -396,7 +402,7 @@
                   </svg>
                 </a>
                 <button class="card-link-btn" data-open-case="playver">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -410,9 +416,9 @@
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// INTERACTIVE BOOKING &amp; E-COMMERCE</div>
+                <div class="project-category" data-i18n="p5Category">// INTERACTIVE BOOKING &amp; E-COMMERCE</div>
                 <h3 class="project-title">Cin.Emma: IMAX Booking Experience</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p5Desc">
                   Интерактивный сервис онлайн-бронирования билетов в премиальный кинотеатр: динамическая SVG-схема зала (Standard / VIP ложи), расписание сеансов, заказ напитков/попкорна в чекауте и виртуальный билет с QR-кодом.
                 </p>
                 <div class="tech-pills">
@@ -426,7 +432,7 @@
 
               <div class="project-footer">
                 <a href="https://ru1zy.github.io/cinema/" target="_blank" rel="noopener noreferrer" class="card-link-btn" style="border-color: rgba(245, 158, 11, 0.4);">
-                  <span>Забронировать билет</span>
+                  <span data-i18n="btnBookTicket">Забронировать билет</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                     <polyline points="15 3 21 3 21 9"></polyline>
@@ -434,7 +440,7 @@
                   </svg>
                 </a>
                 <button class="card-link-btn" data-open-case="cinema">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -448,9 +454,9 @@
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// E-COMMERCE &amp; RETAIL</div>
+                <div class="project-category" data-i18n="p6Category">// E-COMMERCE &amp; RETAIL</div>
                 <h3 class="project-title">Jacovert Inc.</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p6Desc">
                   Многофункциональный интернет-магазин по продаже премиального кофе, аксессуаров и сувениров. Каталог с живой фильтрацией, корзина и структурированная база данных.
                 </p>
                 <div class="tech-pills">
@@ -462,9 +468,9 @@
               </div>
 
               <div class="project-footer">
-                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Дипломный проект</span>
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);" data-i18n="p6FooterNote">Дипломный проект</span>
                 <button class="card-link-btn" data-open-case="jacovert">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -474,13 +480,13 @@
             </div>
           </div>
 
-          <!-- PROJECT 3: TELEGRAM AUTOMATION -->
+          <!-- PROJECT 7: TELEGRAM AUTOMATION -->
           <div class="col-card-6 fade-up">
             <div class="spotlight-card project-card">
               <div class="project-card-header">
-                <div class="project-category">// БИЗНЕС-АВТОМАТИЗАЦИЯ</div>
+                <div class="project-category" data-i18n="p7Category">// БИЗНЕС-АВТОМАТИЗАЦИЯ</div>
                 <h3 class="project-title">Telegram Bot Ecosystems</h3>
-                <p class="project-desc">
+                <p class="project-desc" data-i18n="p7Desc">
                   Разработка надежных ботов для мессенджеров: прием и маршрутизация заказов, прием платежей, интеграция с CRM-системами и мгновенные пуш-оповещения персонала.
                 </p>
                 <div class="tech-pills">
@@ -492,9 +498,9 @@
               </div>
 
               <div class="project-footer">
-                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);">Интеграции &amp; CRM</span>
+                <span class="mono" style="font-size: 0.8rem; color: var(--text-muted);" data-i18n="p7FooterNote">Интеграции &amp; CRM</span>
                 <button class="card-link-btn" data-open-case="telegram-bots">
-                  <span>Смотреть кейс</span>
+                  <span data-i18n="btnViewCase">Смотреть кейс</span>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -504,14 +510,14 @@
             </div>
           </div>
 
-          <!-- PROJECT 4: INTERACTIVE WEB & LANDINGS -->
+          <!-- PROJECT 8: INTERACTIVE WEB & LANDINGS -->
           <div class="col-flagship fade-up">
             <div class="spotlight-card project-card" style="padding: 2.25rem;">
               <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
                 <div>
-                  <div class="project-category">// FRONTEND &amp; SPEED</div>
-                  <h3 class="project-title">High-Performance Web &amp; Interactive UI</h3>
-                  <p class="project-desc" style="max-width: 700px;">
+                  <div class="project-category" data-i18n="p8Category">// FRONTEND &amp; SPEED</div>
+                  <h3 class="project-title" data-i18n="p8Title">High-Performance Web &amp; Interactive UI</h3>
+                  <p class="project-desc" style="max-width: 700px;" data-i18n="p8Desc">
                     Разработка представительских сайтов и посадочных страниц с безупречным dark mode, плавными 60fps микровзаимодействиями, поддержкой prefers-reduced-motion и скоростью загрузки 95+ по Google PageSpeed.
                   </p>
                   <div class="tech-pills">
@@ -524,7 +530,7 @@
                 </div>
 
                 <button class="btn btn-secondary" data-open-case="interactive-web" style="align-self: center;">
-                  <span>Узнать подробнее</span>
+                  <span data-i18n="btnLearnMore">Узнать подробнее</span>
                 </button>
               </div>
             </div>
@@ -538,9 +544,9 @@
       <div class="container">
         <div class="section-header fade-up">
           <div>
-            <div class="section-tag">// ТЕХНОЛОГИЧЕСКИЙ СТЕК</div>
-            <h2 class="section-title">Инструменты и экспертиза</h2>
-            <p class="section-subtitle">Использую только современные и проверенные решения, дающие стабильность и масштабируемость.</p>
+            <div class="section-tag" data-i18n="sectionSkillsTag">// ТЕХНОЛОГИЧЕСКИЙ СТЕК</div>
+            <h2 class="section-title" data-i18n="sectionSkillsTitle">Инструменты и экспертиза</h2>
+            <p class="section-subtitle" data-i18n="sectionSkillsSubtitle">Использую только современные и проверенные решения, дающие стабильность и масштабируемость.</p>
           </div>
         </div>
 
@@ -549,8 +555,8 @@
           <div class="col-card-4 fade-up">
             <div class="spotlight-card" style="padding: 2rem; height: 100%;">
               <div class="mono" style="font-size: 0.8rem; color: var(--accent-emerald); margin-bottom: 0.5rem;">01 / FRONTEND</div>
-              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Клиентский уровень</h3>
-              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;" data-i18n="skill1Title">Клиентский уровень</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="skill1Desc">
                 Создание отзывчивых, доступных и визуально выразительных интерфейсов.
               </p>
               <div class="tech-pills">
@@ -568,8 +574,8 @@
           <div class="col-card-4 fade-up">
             <div class="spotlight-card" style="padding: 2rem; height: 100%;">
               <div class="mono" style="font-size: 0.8rem; color: var(--accent-cyan); margin-bottom: 0.5rem;">02 / BACKEND &amp; API</div>
-              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Сервер и интеграции</h3>
-              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;" data-i18n="skill2Title">Сервер и интеграции</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="skill2Desc">
                 Надежные API, работа с базами данных, вебхуками и финансовыми шлюзами.
               </p>
               <div class="tech-pills">
@@ -587,8 +593,8 @@
           <div class="col-card-4 fade-up">
             <div class="spotlight-card" style="padding: 2rem; height: 100%;">
               <div class="mono" style="font-size: 0.8rem; color: var(--accent-indigo); margin-bottom: 0.5rem;">03 / ARCHITECTURE</div>
-              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Инженерия и качество</h3>
-              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;" data-i18n="skill3Title">Инженерия и качество</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1.25rem;" data-i18n="skill3Desc">
                 Фокус на скорости, защищенности, поддержке чистого кода и SEO.
               </p>
               <div class="tech-pills">
@@ -610,11 +616,11 @@
         <div class="cta-banner fade-up spotlight-card">
           <div class="status-pill" style="margin-bottom: 1rem;">
             <span class="pulse-dot"></span>
-            <span>Готов к диалогу</span>
+            <span data-i18n="ctaStatus">Готов к диалогу</span>
           </div>
 
-          <h2 class="cta-title">Давайте обсудим ваш проект</h2>
-          <p class="cta-desc">
+          <h2 class="cta-title" data-i18n="ctaTitle">Давайте обсудим ваш проект</h2>
+          <p class="cta-desc" data-i18n="ctaDesc">
             Нужен современный веб-сервис, интернет-магазин, надежный Telegram-бот или редизайн интерфейса? Напишите мне в Telegram — отвечу быстро и по существу.
           </p>
 
@@ -624,7 +630,7 @@
                 <line x1="22" y1="2" x2="11" y2="13"></line>
                 <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
               </svg>
-              <span>Написать в Telegram (@ru1zy)</span>
+              <span data-i18n="ctaTelegram">Написать в Telegram (@ru1zy)</span>
             </a>
 
             <button class="btn btn-secondary" data-copy-text="@ru1zy" title="Скопировать никнейм">
@@ -632,14 +638,14 @@
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                 <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
               </svg>
-              <span>Скопировать контакт</span>
+              <span data-i18n="ctaCopy">Скопировать контакт</span>
             </button>
 
             <a href="https://github.com/Ru1zy" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
               </svg>
-              <span>GitHub</span>
+              <span data-i18n="ctaGithub">GitHub</span>
             </a>
           </div>
         </div>
@@ -654,11 +660,11 @@
         <div style="display: flex; align-items: center; gap: 0.75rem;">
           <div class="logo-icon" style="width: 34px; height: 28px; font-size: 0.75rem;">241</div>
           <span style="color: #cbd5e1; font-weight: 700;">2ez4ru1z</span>
-          <span style="color: var(--text-muted);">— Fullstack &amp; Frontend Engineering</span>
+          <span style="color: var(--text-muted);" data-i18n="footerTagline">— Fullstack &amp; Frontend Engineering</span>
         </div>
 
         <div>
-          <p>© 2026 2ez4ru1z. All rights reserved.</p>
+          <p>© 2026 2ez4ru1z. <span data-i18n="footerRights">All rights reserved.</span></p>
         </div>
       </div>
     </div>
@@ -667,7 +673,7 @@
   <!-- Project Case Study Modal -->
   <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
     <div class="modal-window">
-      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Закрыть модальное окно">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Закрыть модальное окно" data-i18n-aria="modalCloseAria">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -692,7 +698,13 @@
   <!-- Toast Notification -->
   <div class="toast-notice" id="toastNotice" role="status" aria-live="polite"></div>
 
-  <!-- Modern JS Script -->
+  <!-- i18n & Modern Scripts -->
+  <script src="js/i18n.js"></script>
   <script src="js/modern.js"></script>
+  <script>
+    if (window.PortfolioI18n) {
+      window.PortfolioI18n.init();
+    }
+  </script>
 </body>
 </html>
