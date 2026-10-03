@@ -15,7 +15,7 @@ window.PortfolioI18n = (function () {
     // RUSSIAN (RU)
     // -------------------------------------------------------------
     ru: {
-      pageTitle: '2ez4ru1z — Fullstack & Frontend Engineer | Portfolio',
+      pageTitle: '2ez4ru1z — Fullstack Software Engineer | Portfolio',
       metaDesc: 'Разработка высоконагруженных веб-сервисов, e-commerce платформ, Telegram-ботов и интерактивных интерфейсов с высокой конверсией и безупречной скоростью.',
 
       navProjects: 'Проекты',
@@ -24,8 +24,8 @@ window.PortfolioI18n = (function () {
       navCta: 'Telegram',
 
       heroStatus: 'Открыт для новых проектов и амбициозных задач',
-      heroTitlePrefix: 'Fullstack &',
-      heroTitleGradient: 'Frontend Engineer',
+      heroTitlePrefix: 'Fullstack',
+      heroTitleGradient: 'Software Engineer',
       heroDesc: 'Проектирую и создаю высокопроизводительные веб-приложения, e-commerce сервисы и Telegram-экосистемы. Фокусируюсь на чистой архитектуре, конверсии и премиальном UX с быстрой загрузкой.',
       heroBtnProjects: 'Смотреть проекты',
       heroBtnTelegram: 'Написать в Telegram',
@@ -56,6 +56,10 @@ window.PortfolioI18n = (function () {
       mockupAutomationLabel: 'Автоматизация процессов',
       mockupAutomationVal: '100% Zero-Touch',
       mockupDiagramTitle: '// СТЕК СИНХРОНИЗАЦИИ ДАННЫХ',
+
+      bioCategory: '// БИОМЕДИЦИНА & АКТУАРНАЯ МАТЕМАТИКА',
+      bioDesc: 'Актуарный биомедицинский симулятор All-Cause Mortality и биологического возраста на основе закона Гомпертца-Мейкхема, 39 рецензированных биомаркеров (100% PubMed DOI), интерактивного анатомического аудита 8 систем организма и шкал психического здоровья (SPQ-B).',
+      btnRunSim: 'Запустить симулятор',
 
       p2Category: '// GAMEDEV & WEBRTC P2P',
       p2Desc: 'Пошаговая тактическая 2D-стратегия с бесконечным циклом уровней, визуализацией зон хода/атаки, умным Utility AI и мультиплеером по ссылке через WebRTC DataChannels без стороннего бэкенда.',
@@ -107,7 +111,7 @@ window.PortfolioI18n = (function () {
       ctaGithub: 'GitHub',
 
       footerRights: 'Все права защищены.',
-      footerTagline: '— Fullstack & Frontend Engineering',
+      footerTagline: '— Fullstack Software Engineering',
 
       modalCloseAria: 'Закрыть модальное окно',
       modalRepoGithub: 'Репозиторий на GitHub'
@@ -117,7 +121,7 @@ window.PortfolioI18n = (function () {
     // UKRAINIAN (UA)
     // -------------------------------------------------------------
     ua: {
-      pageTitle: '2ez4ru1z — Fullstack & Frontend Engineer | Портфоліо',
+      pageTitle: '2ez4ru1z — Fullstack Software Engineer | Портфоліо',
       metaDesc: 'Розробка високонавантажених веб-сервісів, e-commerce платформ, Telegram-ботів та інтерактивних інтерфейсів із високою конверсією та бездоганною швидкістю.',
 
       navProjects: 'Проєкти',
@@ -126,8 +130,8 @@ window.PortfolioI18n = (function () {
       navCta: 'Telegram',
 
       heroStatus: 'Відкритий для нових проєктів та амбітних задач',
-      heroTitlePrefix: 'Fullstack &',
-      heroTitleGradient: 'Frontend Engineer',
+      heroTitlePrefix: 'Fullstack',
+      heroTitleGradient: 'Software Engineer',
       heroDesc: 'Проєктую та розробляю високопродуктивні веб-додатки, e-commerce платформи та Telegram-екосистеми. Фокусуюся на чистій архітектурі, конверсії та преміальному UX із миттєвим завантаженням.',
       heroBtnProjects: 'Дивитися проєкти',
       heroBtnTelegram: 'Написати в Telegram',
@@ -158,6 +162,10 @@ window.PortfolioI18n = (function () {
       mockupAutomationLabel: 'Автоматизація процесів',
       mockupAutomationVal: '100% Zero-Touch',
       mockupDiagramTitle: '// СТЕК СИНХРОНІЗАЦІЇ ДАНИХ',
+
+      bioCategory: '// БІОМЕДИЦИНА ТА АКТУАРНА МАТЕМАТИКА',
+      bioDesc: 'Актуарний біомедичний симулятор All-Cause Mortality та біологічного віку на основі закону Гомпертца-Мейкхема, 39 рецензованих біомаркерів (100% PubMed DOI), інтерактивного 3D-анатомічного аудиту 8 систем організму та шкал психічного здоров\'я (SPQ-B).',
+      btnRunSim: 'Запустити симулятор',
 
       p2Category: '// GAMEDEV & WEBRTC P2P',
       p2Desc: 'Покрокова тактична 2D-стратегія з нескінченним циклом рівнів, візуалізацією зон ходу/атаки, розумним Utility AI та мультиплеєром за посиланням через WebRTC DataChannels без стороннього бекенду.',
@@ -209,7 +217,7 @@ window.PortfolioI18n = (function () {
       ctaGithub: 'GitHub',
 
       footerRights: 'Всі права захищені.',
-      footerTagline: '— Fullstack & Frontend Engineering',
+      footerTagline: '— Fullstack Software Engineering',
 
       modalCloseAria: 'Закрити модальне вікно',
       modalRepoGithub: 'Репозиторій на GitHub'
@@ -219,7 +227,7 @@ window.PortfolioI18n = (function () {
     // ENGLISH (EN)
     // -------------------------------------------------------------
     en: {
-      pageTitle: '2ez4ru1z — Fullstack & Frontend Engineer | Portfolio',
+      pageTitle: '2ez4ru1z — Fullstack Software Engineer | Portfolio',
       metaDesc: 'Building high-performance web applications, e-commerce platforms, Telegram bots, and high-converting interactive user interfaces with blazing fast speed.',
 
       navProjects: 'Projects',
@@ -228,8 +236,8 @@ window.PortfolioI18n = (function () {
       navCta: 'Telegram',
 
       heroStatus: 'Available for new projects & ambitious challenges',
-      heroTitlePrefix: 'Fullstack &',
-      heroTitleGradient: 'Frontend Engineer',
+      heroTitlePrefix: 'Fullstack',
+      heroTitleGradient: 'Software Engineer',
       heroDesc: 'Architecting and building high-performance web applications, e-commerce platforms, and Telegram ecosystems. Focused on clean architecture, high conversion rates, and premium, fast-loading UX.',
       heroBtnProjects: 'View Projects',
       heroBtnTelegram: 'Contact via Telegram',
@@ -260,6 +268,10 @@ window.PortfolioI18n = (function () {
       mockupAutomationLabel: 'Process Automation',
       mockupAutomationVal: '100% Zero-Touch',
       mockupDiagramTitle: '// DATA PIPELINE ARCHITECTURE',
+
+      bioCategory: '// BIOMEDICAL & ACTUARIAL MATH',
+      bioDesc: 'Actuarial biomedical simulator of All-Cause Mortality and biological age powered by the Gompertz-Makeham law, 39 peer-reviewed biomarkers (100% PubMed DOI), interactive 8-system anatomical body cockpit, and SPQ-B mental health scales.',
+      btnRunSim: 'Launch Simulator',
 
       p2Category: '// GAMEDEV & WEBRTC P2P',
       p2Desc: 'Turn-based tactical 2D strategy featuring endless procedural wave cycles, movement/attack range visualization, smart Utility AI, and zero-server peer-to-peer multiplayer via WebRTC DataChannels.',
@@ -311,7 +323,7 @@ window.PortfolioI18n = (function () {
       ctaGithub: 'GitHub',
 
       footerRights: 'All rights reserved.',
-      footerTagline: '— Fullstack & Frontend Engineering',
+      footerTagline: '— Fullstack Software Engineering',
 
       modalCloseAria: 'Close modal dialog',
       modalRepoGithub: 'Repository on GitHub'
@@ -367,6 +379,60 @@ window.PortfolioI18n = (function () {
             <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 12px; padding: 1.25rem;">
               <div style="font-size: 0.85rem; font-weight: 700; color: #34d399; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
               <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Prisma ORM, Monobank API, Telegram Bot Webhook, Zustand, Google Drive & Sheets API.</div>
+            </div>
+          </div>
+        `
+      },
+      biotelemetry: {
+        badge: 'Biomedical & Actuarial Engineering • 2026',
+        title: 'BioTelemetry — Актуарный симулятор долголетия и анатомический аудит',
+        subtitle: 'JavaScript ES6+ • Gompertz-Makeham Actuarial Law • Cox Proportional Hazards • 39 PubMed DOIs • 8-System Body Cockpit',
+        url: 'https://ru1zy.github.io/biotelemetry/',
+        urlLabel: 'Запустить симулятор в браузере (GitHub Pages)',
+        secondaryUrl: 'https://github.com/Ru1zy/biotelemetry',
+        secondaryLabel: 'Репозиторий на GitHub',
+        content: `
+          <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте и научной базе</h4>
+              <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+                BioTelemetry — клинико-актуарная система оценки индивидуального риска смертности от всех причин (All-Cause Mortality), биологического возраста и функционального резерва 8 ключевых систем организма. В отличие от псевдонаучных онлайн-тестов, симулятор базируется на актуарном законе Гомпертца-Мейкхема, модели пропорциональных рисков Кокса (Cox HR) с убывающей отдачей и когортных исследованиях UK Biobank, Framingham и Harvard T.H. Chan.
+              </p>
+            </div>
+
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Инженерные и архитектурные решения</h4>
+              <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>100% рецензированная доказательная база:</strong> Каждое из 39 клинических вопросов снабжено ссылкой на верифицированную первичную публикацию в PubMed (NCBI) с DOI и указанием авторов/журналов.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Актуарная калибровка спадающей полезности:</strong> Предотвращает нереалистичные выбросы (например, 140 лет жизни) с помощью логарифмической функции насыщения на основе биологических пределов долголетия.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Интерактивный анатомический кокпит (8 систем):</strong> Многослойный рендер организма (органы, мускулатура, скелет, нервы), интерактивные диагностические пины и детальная панель клинического инспектора с факторами риска и защиты.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Оценка психического профиля:</strong> Анализ шизотипического спектра (шкала SPQ-B Raine), когнитивной сенситивности, эмоциональной устойчивости и дофаминового баланса.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Интерактивная визуализация:</strong> Кривая вероятности дожития Гомпертца и 8-осевой радар физиологической устойчивости систем на Chart.js.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Полноценная локализация (UA / RU / EN):</strong> Мгновенное переключение языка всех 39 вопросов, медицинских терминов, логов терминала и результатов без перезагрузки.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 12px; padding: 1.25rem;">
+              <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+              <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Vanilla JavaScript ES6+, Gompertz-Makeham Actuarial Engine, Chart.js (Survival & Radar), CSS Grid/Flexbox Glassmorphism, NCBI PubMed E-Utilities, i18n Engine.</div>
             </div>
           </div>
         `
@@ -709,6 +775,60 @@ window.PortfolioI18n = (function () {
           </div>
         `
       },
+      biotelemetry: {
+        badge: 'Біомедична та актуарна інженерія • 2026',
+        title: 'BioTelemetry — Актуарний симулятор довголіття та анатомічний аудит',
+        subtitle: 'JavaScript ES6+ • Gompertz-Makeham Actuarial Law • Cox Proportional Hazards • 39 PubMed DOIs • 8-System Body Cockpit',
+        url: 'https://ru1zy.github.io/biotelemetry/',
+        urlLabel: 'Запустити симулятор у браузері (GitHub Pages)',
+        secondaryUrl: 'https://github.com/Ru1zy/biotelemetry',
+        secondaryLabel: 'Репозиторій на GitHub',
+        content: `
+          <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 Про проєкт та наукову базу</h4>
+              <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+                BioTelemetry — клініко-актуарна система оцінки індивідуального ризику смертності від усіх причин (All-Cause Mortality), біологічного віку та функціонального резерву 8 ключових систем організму. На відміну від псевдонаукових опитувальників, симулятор базується на актуарному законі Гомпертца-Мейкхема, моделі пропорційних ризиків Кокса (Cox HR) зі спадною віддачею та когортних дослідженнях UK Biobank, Framingham і Harvard T.H. Chan.
+              </p>
+            </div>
+
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Інженерні та архітектурні рішення</h4>
+              <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>100% рецензована доказова база:</strong> Кожне з 39 клінічних запитань містить пряме посилання на верифіковану первинну публікацію в PubMed (NCBI) з DOI та вказівкою авторів і журналів.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Актуарне калібрування спадної корисності:</strong> Запобігає нереалістичним аномаліям (наприклад, 140 років життя) завдяки логарифмічній функції насичення на основі біологічних лімітів людського організму.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Інтерактивний анатомічний кокпіт (8 систем):</strong> Багатошаровий рендер організму (органи, мускулатура, скелет, нерви), інтерактивні діагностичні піни та детальна панель клінічного інспектора з факторами ризику та захисту.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Оцінка ментального профілю:</strong> Аналіз шизотипічного спектра (шкала SPQ-B Raine), когнітивної сенситивності, емоційної стійкості та дофамінового балансу.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Інтерактивна візуалізація:</strong> Крива ймовірності дожиття Гомпертца та 8-осьовий радар фізіологічної стійкості систем на Chart.js.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Повноцінна локалізація (UA / RU / EN):</strong> Миттєве перемикання мови всіх 39 запитань, медичних термінів, логів симуляції та результатів без перезавантаження сторінки.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 12px; padding: 1.25rem;">
+              <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологій</div>
+              <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Vanilla JavaScript ES6+, Gompertz-Makeham Actuarial Engine, Chart.js (Survival & Radar), CSS Grid/Flexbox Glassmorphism, NCBI PubMed E-Utilities, i18n Engine.</div>
+            </div>
+          </div>
+        `
+      },
       'fantasy-game': {
         badge: 'Game Dev • WebRTC P2P • PWA',
         title: 'Fantasy Tactics 2D — Браузерна покрокова стратегія',
@@ -1043,6 +1163,60 @@ window.PortfolioI18n = (function () {
             <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 12px; padding: 1.25rem;">
               <div style="font-size: 0.85rem; font-weight: 700; color: #34d399; text-transform: uppercase; margin-bottom: 0.35rem;">Technology Stack</div>
               <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, Prisma ORM, Monobank API, Telegram Bot Webhook, Zustand, Google Drive & Sheets API.</div>
+            </div>
+          </div>
+        `
+      },
+      biotelemetry: {
+        badge: 'Biomedical & Actuarial Engineering • 2026',
+        title: 'BioTelemetry — Actuarial Longevity Simulator & Anatomical Audit',
+        subtitle: 'JavaScript ES6+ • Gompertz-Makeham Actuarial Law • Cox Proportional Hazards • 39 PubMed DOIs • 8-System Body Cockpit',
+        url: 'https://ru1zy.github.io/biotelemetry/',
+        urlLabel: 'Launch Simulator in Browser (GitHub Pages)',
+        secondaryUrl: 'https://github.com/Ru1zy/biotelemetry',
+        secondaryLabel: 'GitHub Repository',
+        content: `
+          <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 Clinical Concept & Scientific Foundation</h4>
+              <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+                BioTelemetry is an actuarial and clinical web simulation system evaluating personalized All-Cause Mortality risk, biological age, and physiological reserve across 8 fundamental anatomical systems. Departing from pseudoscientific quizzes, it is strictly grounded in the Gompertz-Makeham mortality law, Cox proportional hazards with logarithmic diminishing returns, and longitudinal cohort data from UK Biobank, Framingham, and Harvard T.H. Chan.
+              </p>
+            </div>
+
+            <div>
+              <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Engineering & Architectural Innovations</h4>
+              <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>100% Peer-Reviewed Evidence Base:</strong> Every single one of the 39 clinical questions links directly to a verified primary publication on PubMed (NCBI) with DOI, authors, and journal citations.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Actuarial Diminishing Returns Calibration:</strong> Prevents mathematically absurd longevity projections (e.g., 140 years) through exponential saturation modeling of human biological survival limits.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Interactive Multilayer Body Cockpit (8 Systems):</strong> Multilayer anatomical rendering (organs, muscular system, skeleton, nervous system), interactive diagnostic pins, and a scrollable clinical inspector panel with risk/protective factor breakdowns.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Psychological & Cognitive Profile Evaluation:</strong> Validated schizotypal spectrum assessment (SPQ-B Raine scale), cognitive sensitivity, neuroticism, and dopaminergic tone.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Interactive Actuarial Visualizations:</strong> Gompertz survival curve projection and an 8-axis physiological resilience radar chart built on Chart.js.</span>
+                </li>
+                <li style="display: flex; gap: 0.6rem;">
+                  <span style="color: #38bdf8;">✔</span>
+                  <span><strong>Full Multilingual Support (UA / RU / EN):</strong> Seamless client-side i18n switching covering all 39 questions, scientific explanations, terminal logs, and analytical results without page reload.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 12px; padding: 1.25rem;">
+              <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; margin-bottom: 0.35rem;">Technology Stack</div>
+              <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Vanilla JavaScript ES6+, Gompertz-Makeham Actuarial Engine, Chart.js (Survival & Radar), CSS Grid/Flexbox Glassmorphism, NCBI PubMed E-Utilities, i18n Engine.</div>
             </div>
           </div>
         `

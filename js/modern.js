@@ -97,6 +97,60 @@
         </div>
       `
     },
+    biotelemetry: {
+      badge: 'Biomedical & Actuarial Engineering • 2026',
+      title: 'BioTelemetry — Актуарный симулятор долголетия и анатомический аудит',
+      subtitle: 'JavaScript ES6+ • Gompertz-Makeham Actuarial Law • Cox Proportional Hazards • 39 PubMed DOIs • 8-System Body Cockpit',
+      url: 'https://ru1zy.github.io/biotelemetry/',
+      urlLabel: 'Запустить симулятор в браузере (GitHub Pages)',
+      secondaryUrl: 'https://github.com/Ru1zy/biotelemetry',
+      secondaryLabel: 'Репозиторий на GitHub',
+      content: `
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.25rem;">
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">🎯 О проекте и научной базе</h4>
+            <p style="color: #94a3b8; line-height: 1.65; font-size: 0.95rem;">
+              BioTelemetry — клинико-актуарная система оценки индивидуального риска смертности от всех причин (All-Cause Mortality), биологического возраста и функционального резерва 8 ключевых систем организма. В отличие от псевдонаучных онлайн-тестов, симулятор базируется на актуарном законе Гомпертца-Мейкхема, модели пропорциональных рисков Кокса (Cox HR) с убывающей отдачей и когортных исследованиях UK Biobank, Framingham и Harvard T.H. Chan.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 0.5rem;">⚡ Инженерные и архитектурные решения</h4>
+            <ul style="color: #cbd5e1; list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.92rem;">
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>100% рецензированная доказательная база:</strong> Каждое из 39 клинических вопросов снабжено ссылкой на верифицированную первичную публикацию в PubMed (NCBI) с DOI и указанием авторов/журналов.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>Актуарная калибровка спадающей полезности:</strong> Предотвращает нереалистичные выбросы (например, 140 лет жизни) с помощью логарифмической функции насыщения на основе биологических пределов долголетия.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>Интерактивный анатомический кокпит (8 систем):</strong> Многослойный рендер организма (органы, мускулатура, скелет, нервы), интерактивные диагностические пины и детальная панель клинического инспектора с факторами риска и защиты.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>Оценка психического профиля:</strong> Анализ шизотипического спектра (шкала SPQ-B Raine), когнитивной сенситивности, эмоциональной устойчивости и дофаминового баланса.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>Интерактивная визуализация:</strong> Кривая вероятности дожития Гомпертца и 8-осевой радар физиологической устойчивости систем на Chart.js.</span>
+              </li>
+              <li style="display: flex; gap: 0.6rem;">
+                <span style="color: #38bdf8;">✔</span>
+                <span><strong>Полноценная локализация (UA / RU / EN):</strong> Мгновенное переключение языка всех 39 вопросов, медицинских терминов, логов терминала и результатов без перезагрузки.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.25); border-radius: 12px; padding: 1.25rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #38bdf8; text-transform: uppercase; margin-bottom: 0.35rem;">Стек технологий</div>
+            <div style="color: #f1f5f9; font-size: 0.9rem; font-family: monospace;">Vanilla JavaScript ES6+, Gompertz-Makeham Actuarial Engine, Chart.js (Survival & Radar), CSS Grid/Flexbox Glassmorphism, NCBI PubMed E-Utilities, i18n Engine.</div>
+          </div>
+        </div>
+      `
+    },
     'fantasy-game': {
       badge: 'Game Dev • WebRTC P2P • PWA',
       title: 'Fantasy Tactics 2D — Браузерная пошаговая стратегия',
