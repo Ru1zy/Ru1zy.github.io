@@ -473,7 +473,7 @@
       modalSecondaryBtn.href = data.secondaryUrl;
       const defaultSecondaryLabel = (window.PortfolioI18n && typeof window.PortfolioI18n.t === 'function')
         ? window.PortfolioI18n.t('modalRepoGithub')
-        : 'Репозиторий на GitHub';
+        : 'Репозиторій на GitHub';
       modalSecondaryBtn.textContent = data.secondaryLabel || defaultSecondaryLabel;
       modalSecondaryBtn.style.display = 'inline-flex';
     } else if (modalSecondaryBtn) {
@@ -547,7 +547,7 @@
 
       const copiedMsg = (window.PortfolioI18n && typeof window.PortfolioI18n.t === 'function')
         ? window.PortfolioI18n.t('ctaCopied')
-        : '✓ Скопировано в буфер: @ru1zy';
+        : '✓ Скопійовано: @ru1zy';
 
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(() => {
